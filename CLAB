@@ -1,0 +1,28 @@
+Sub Import()
+'
+' Import Macro
+'
+' Line Listing for All Central Line-Associated BSI Events
+
+'
+    Workbooks.Open Filename:= _
+        "G:\IPAC\General\Surveillance\Analysis\Dashboard Back End\NHSN Data Pull\2_CW - Line Listing - All CLAB Events.csv"
+    Columns("A:J").Select
+    Selection.Copy
+    Windows("Dashboard V2.xlsm").Activate
+    Sheets("CLABSI Line List").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    
+' SIR for CLAB Data for Hospital IQR (2015 Baseline) - By OrgID
+
+'
+    Workbooks.Open Filename:= _
+        "G:\IPAC\General\Surveillance\Analysis\Dashboard Back End\NHSN Data Pull\5_CW - SIR - CLAB Data for Hospital IQR.csv"
+    Columns("A:H").Select
+    Selection.Copy
+    Windows("Dashboard V2.xlsm").Activate
+    Sheets("CLABSI SIR CMS Report").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+End Sub
