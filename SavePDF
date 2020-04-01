@@ -1,0 +1,105 @@
+Sub SavePDF()
+ThisWorkbook.Sheets(Array("J9 CCU Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\J9 CCU Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+
+ThisWorkbook.Sheets(Array("CP9 Prog Care Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP9 Prog Care Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP8 Tele Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP8 Tele Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP10 Gastro Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP10 Gastro Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("J11 Ortho Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\J11 Ortho Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP15 Gen Surg Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP15 Gen Surg Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP16 Pulmonary Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP16 Pulmonary Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP17 Neuro Staff Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP17 Neuro Staff Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("J18 Oncology Staff Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\J18 Oncology Staff Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP12 Short Stay")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP12 Short Stay", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("J7 ED")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\J7 ED", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP7 Observation")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP7 Observation", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("Facility Exec Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Facility Exec Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("30 Day SSI Review")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\30 Day SSI Review", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("90 Day SSI Review (KPRO, HPRO)")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\90 Day SSI Review (KPRO, HPRO)", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("90 Day SSI Review (CARD)")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\90 Day SSI Review (CARD)", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("SSI Dashboard")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\SSI Dashboard", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+End Sub
+
+
