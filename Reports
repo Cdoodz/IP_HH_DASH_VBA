@@ -1,0 +1,86 @@
+Sub HHReports()
+
+ThisWorkbook.Sheets(Array("J9 CCU Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\J9 CCU Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+
+ThisWorkbook.Sheets(Array("CP9 Prog Care Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP9 Prog Care Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP8 Tele Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP8 Tele Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP10 Gastro Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP10 Gastro Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("J11 Ortho Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\J11 Ortho Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP15 Gen Surg Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP15 Gen Surg Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP16 Pulmonary Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP16 Pulmonary Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP17 Neuro Staff Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP17 Neuro Staff Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("J18 Oncology Staff Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\J18 Oncology Staff Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP12 Short Stay")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP12 Short Stay", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("J7 ED")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\J7 ED", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("CP7 Observation")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\CP7 Observation", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("14CP Report")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\14CP Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+     
+ThisWorkbook.Sheets(Array("HH Report (Last 3 Months)")).Select
+
+ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+    "G:\IPAC\General\Surveillance\Analysis\Unit Reports\Hand Hygiene Report\HH Report (Last 3 Months", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
+     IgnorePrintAreas:=False, OpenAfterPublish:=True
+End Sub
