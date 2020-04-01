@@ -23,7 +23,7 @@ ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
     "G:\IPAC\General\Surveillance\Analysis\Unit Reports\CP10 Gastro Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
      IgnorePrintAreas:=False, OpenAfterPublish:=True
      
-ThisWorkbook.Sheets(Array("J11 Ortho Report")).Select
+ThisWorkbook.Sheets(Array("J11 Ortho Report")).Select 
 
 ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
     "G:\IPAC\General\Surveillance\Analysis\Unit Reports\J11 Ortho Report", Quality:=xlQualityStandard, IncludeDocProperties:=True, _
