@@ -1,0 +1,243 @@
+Sub TransferToFrontEnd()
+'
+' 9J CCU
+'
+
+'
+    Sheets("CCU").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("9J CCU").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' CP9 Prog Care
+'
+
+'
+    Sheets("ProCare").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("CP9 Prog Care").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' CP8 TELE
+'
+
+'
+    Sheets("Tele").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("CP8 Tele").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' CP10 Gastro
+'
+
+'
+    Sheets("Gastro").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("CP10 Gastro").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' J11 Ortho
+'
+
+'
+    Sheets("Ortho").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("J11 Ortho").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' CP15 Gen Surg
+'
+
+'
+    Sheets("Gen Surg").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("CP15 Gen Surg").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' CP16 Pulmonary
+'
+
+'
+    Sheets("Pulmonary").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("CP16 Pulmonary").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' CP17 Neuro
+'
+
+'
+    Sheets("Neuro").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("CP17 Neuro").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' J18 Oncology
+'
+
+'
+    Sheets("Oncology").Select
+    ActiveWindow.ScrollColumn = 1
+    Columns("A:R").Select
+    ActiveWindow.SmallScroll ToRight:=6
+    Range("A:R,U:W").Select
+    Range("U1").Activate
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("J18 Oncology").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+'
+' SSI
+'
+
+'
+    Sheets("SSI").Select
+    Columns("A:ER").Select
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("SSI").Select
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard V2.xlsm").Activate
+End Sub
+Sub Macro3()
+'
+' Macro3 Macro
+'
+
+'
+    Sheets("SSI").Select
+    Columns("A:ER").Select
+    Selection.Copy
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("SSI").Select
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Dashboard Front End.xlsx").Activate
+
+End Sub
+Sub Macro5()
+'
+' Macro5 Macro
+'
+
+'
+    Windows("Dashboard Front End.xlsx").Activate
+    Sheets("SSI").Select
+    Columns("D:D").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("X:X").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.SmallScroll ToRight:=23
+    Columns("AR:AR").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.SmallScroll ToRight:=20
+    Columns("BL:BL").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.SmallScroll ToRight:=22
+    Columns("CF:CF").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.SmallScroll ToRight:=24
+    Columns("CZ:CZ").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.SmallScroll ToRight:=19
+    Columns("DT:DT").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.SmallScroll ToRight:=13
+    Windows("Dashboard.xlsm").Activate
+End Sub
